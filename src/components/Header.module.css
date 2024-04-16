@@ -1,0 +1,55 @@
+.container{display: flex;}
+.menu ul{
+display: flex;
+list-style: none;
+gap: 29%;
+margin:0px;
+/* justify-content: space-evenly; */
+}
+.menu a{
+text-decoration: none;
+position: absolute;
+top:6%;
+}
+.logo{
+    width: 25%;
+}
+.menu{
+width:60%;
+}
+.buttons_loginsignin{
+   position: relative;
+    width:10%;
+}
+.name{
+font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 900;
+line-height: 40px;
+text-align: left;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    position: relative;
+}
+.logops{
+    position:absolute;
+    left:-6.5rem;
+}
+.login{
+    background: transparent;
+    border: none;
+    position: absolute;
+    left:0;
+    top:30%;
+}
+.signup{
+    background: transparent;
+    border: none; 
+    position: absolute;
+    right:0;
+    top:30%;
+}
