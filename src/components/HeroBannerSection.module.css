@@ -1,10 +1,15 @@
 .wrappetext{
  width: 35%;
- width: 1199px;
-  Height: 713px;
-  margin: 6% auto 0% auto;
+ width: 100%;
+  min-height: 800px;
+  margin: 6.4rem auto 0% auto;
   position: relative;
   overflow: hidden;
+  max-height: 100%;
+}
+.wrappetext h1{
+    margin-bottom: 4.3rem;
+    margin-top:4.3rem;
 }
 .Introtext{
     width:35%;
@@ -12,4 +17,60 @@
 .animationIntro{
     position: absolute;
      top:600px;
+     margin-top:146px;
 }
+.Introtext button{
+    font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+text-align: left;
+    width: 225px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 28px;
+    opacity: 0px;
+    border:none;
+    background-color: white;
+    color:#F85E9F;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.VibrantText{
+    color: #F85E9F;
+}
+.wrapperButtonOpreations{
+    display: flex;
+    gap: 16px;
+}
+.wrapperButtonOpreations button{
+    width: 160px;
+    max-width: 100%;
+    height: 49px;
+    opacity: 0px;
+    font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+text-align: left;
+}
+.paragraphText{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    margin-bottom:4.3rem;
+}
+.ImagesAnimation{
+    width: 60%;
+    float: right;
+}
+.FastTrack{
+ 
+    margin-top:4rem;
+}
+
+
+
