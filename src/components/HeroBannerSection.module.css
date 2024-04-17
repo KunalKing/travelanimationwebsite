@@ -1,0 +1,15 @@
+.wrappetext{
+ width: 35%;
+ width: 1199px;
+  Height: 713px;
+  margin: 6% auto 0% auto;
+  position: relative;
+  overflow: hidden;
+}
+.Introtext{
+    width:35%;
+}
+.animationIntro{
+    position: absolute;
+     top:600px;
+}

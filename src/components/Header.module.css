@@ -9,17 +9,28 @@ margin:0px;
 .menu a{
 text-decoration: none;
 position: absolute;
-top:6%;
+display: block;
+top:3%;
 }
 .logo{
     width: 25%;
 }
 .menu{
-width:60%;
+width:40%;
 }
 .buttons_loginsignin{
-   position: relative;
+   position: absolute;
     width:10%;
+    right:11%;
+    top:3%;
+}
+.buttons_loginsignin button{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: white;
 }
 .name{
 font-family: Nunito Sans;
@@ -27,12 +38,10 @@ font-size: 24px;
 font-weight: 900;
 line-height: 40px;
 text-align: left;
+position: absolute;
+left: 18%;
 }
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
     position: relative;
 }
 .logops{

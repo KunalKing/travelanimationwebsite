@@ -15,7 +15,7 @@ const Header = () =>
   
     useGSAP(() => {
       const screenWidth = window.innerWidth;
-      let screenlogops = "195"; // Default value
+      let screenlogops = "124px"; // Default value
   
       if (screenWidth < 1350 && screenWidth > 1251) {
         screenlogops = "187"; // Adjust for smaller screens
@@ -75,8 +75,8 @@ const Header = () =>
             </ul>
           </nav>
           <div className={headerstyle.buttons_loginsignin}>
-            <button type='button' onMouseEnter={(event) => handleMouseEnter('Login', event)}  onMouseLeave={handleMouseLeave_loginsignup} className={`animatedNavLinks pstyle ${headerstyle.login}`}>Login</button>
-            <button type='button'onMouseEnter={(event) => handleMouseEnter('SignUp', event)}  onMouseLeave={handleMouseLeave_loginsignup}  className={`animatedNavLinks pstyle_right ${headerstyle.signup}`}>Sign Up</button>
+            <button type='button' onMouseEnter={(event) => handleMouseEnter('Login', event)}  onMouseLeave={handleMouseLeave_loginsignup} className={`animatedNavLinks pstyle ${headerstyle.login}`}>LOGIN</button>
+            <button type='button'onMouseEnter={(event) => handleMouseEnter('SignUp', event)}  onMouseLeave={handleMouseLeave_loginsignup}  className={`animatedNavLinks pstyle_right ${headerstyle.signup}`}>SIGN UP</button>
           </div>
         </div>
       </div>
