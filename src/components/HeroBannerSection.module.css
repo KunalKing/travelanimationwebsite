@@ -66,10 +66,17 @@ text-align: left;
 .ImagesAnimation{
     width: 60%;
     float: right;
+    position: relative;
 }
 .FastTrack{
  
     margin-top:4rem;
+}
+.PathUSA{
+    position: absolute;
+    top: 3%;
+    transform: rotate(171deg);
+    left: 28%;
 }
 
 
