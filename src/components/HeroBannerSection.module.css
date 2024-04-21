@@ -89,5 +89,7 @@ text-align: left;
 .Planepathabove{
     transform: rotate(35deg);
 }
-
+.PlanepathaboveTwo{
+    transform: rotate(35deg);  
+}
 

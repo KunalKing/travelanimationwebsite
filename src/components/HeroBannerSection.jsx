@@ -119,6 +119,12 @@ const HeroBannerSection = () => {
 
   useGSAP(runAnimation);
 
+
+  if (!localStorage.getItem('refreshed')) {
+    localStorage.setItem('refreshed', 'true');
+    window.location.reload();
+}
+
   return (
     <div className={BannerSyle.wrappetext}>
       <div className={`openanimationUpwards ${BannerSyle.animationIntro} ${BannerSyle.Introtext}`} >
@@ -136,7 +142,7 @@ const HeroBannerSection = () => {
           <rectOne stroke="none" fill="none"/>
           <path id="pathtwo" d="m9,100 C 370,180 470,180 610,100"/>
           <g id="rectOne">
-            <image className={`rectOne helloAustrila ${BannerSyle.Planepathabove}`} href={Plane_two} alt="planeOne" />
+            <image className={`rectOne helloAustrila ${BannerSyle.PlanepathaboveTwo}`} href={Plane_two} alt="planeOne" />
           </g>
         </svg>
         <svg className={`pathUSAanimated ${BannerSyle.PathUSA}`} width="50%" height="auto" viewBox="-20 0 557 190" id="svg" fill="none" stroke="red" strokeWidth="2">

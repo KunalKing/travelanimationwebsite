@@ -1,0 +1,53 @@
+/* .CardsAnimation{
+    top: 17%;
+    position: relative;
+    left: 50%;
+    width: 50%;
+}
+.CardsAnimation img{
+
+    position: absolute;
+
+} */
+.CardsAnimation{
+    position: relative;
+    margin-top: 10%;
+}
+.popupmessage{
+    width: auto;
+    position: absolute;
+    left: 29%;
+    opacity: 0;
+    background-color:#fff;
+    border:solid 2px #000;
+    border-radius:12px;
+    display:inline-block;
+    margin:.5em;
+    padding:.5em 1em;
+    color:black;
+}
+
+.popupmessage:before {
+    border: solid 12px transparent;
+    border-left: solid 12px white;
+    border-top: solid 12px white;
+    bottom: -24px;
+    content: "";
+    height: 0;
+    position: absolute;
+    transform: skew(53deg);
+    width: 0;
+    left: 94%;
+}
+.speech:after {
+    border:solid 10px transparent;
+    border-left:solid 10px #fff;
+    border-top:solid 10px #fff;
+    bottom:-19px;
+    content:"";
+    height:0;
+    left:27px;
+    position:absolute;
+    transform:skew(-15deg);
+    width:0;
+  }
