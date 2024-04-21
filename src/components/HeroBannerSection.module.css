@@ -78,6 +78,14 @@ text-align: left;
     left: 20%;
     width: 70%;
 }
+
+.PathAustrila{
+    position: absolute;
+    top: 4%;
+    left: 45%;
+    width: 35%;
+    transform: rotate(38deg);
+}
 .Planepathabove{
     transform: rotate(35deg);
 }
