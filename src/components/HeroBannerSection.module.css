@@ -74,10 +74,12 @@ text-align: left;
 }
 .PathUSA{
     position: absolute;
-    top: 3%;
-    transform: rotate(171deg);
-    left: 28%;
+    top: 14%;
+    left: 20%;
+    width: 70%;
 }
-
+.Planepathabove{
+    transform: rotate(35deg);
+}
 
 
