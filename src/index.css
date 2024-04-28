@@ -73,3 +73,14 @@ button:focus-visible {
     padding: 0.5rem 2%;
   }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .hamburger-menu{
+    display: none;
+  }
+}
+@media screen and (max-width: 999px){
+  .hamburger-menu{
+    display: block;
+  }
+}
