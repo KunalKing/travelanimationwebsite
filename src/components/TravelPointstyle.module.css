@@ -1,0 +1,178 @@
+.wrapperContent {
+  display: flex;
+  height: 760px;
+  max-height: 100%;
+}
+.wrapperImages {
+  position: relative;
+  width: 45%;
+}
+.yellowbimgae {
+  position: absolute;
+  left: -6%;
+  top: 7.9rem;
+}
+.girlImages {
+  position: absolute;
+  left: 0%;
+}
+.fourbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 14px 100px;
+  position: absolute;
+  right: 0;
+}
+.box {
+  width: 73%;
+  background: #800020;
+  border-radius: 10%;
+  padding: 35px;
+}
+.pinkHeading {
+  font-family: Nunito Sans;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #f85e9f;
+}
+.blackHeading {
+  font-family: Nunito Sans;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: left;
+}
+.blackPara {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.textwrap {
+  width: 32%;
+  float: right;
+  right: 9%;
+  position: absolute;
+}
+.ballOne {
+  position: absolute;
+  left: 6%;
+  top: 93%;
+}
+.ballTwo {
+  position: absolute;
+  right: 0;
+}
+.ballThree {
+  position: absolute;
+  top: 62%;
+  right: -17%;
+}
+.ballFour {
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .wrapperContent {
+    margin-top: 82px;
+  }
+  .ballTwo {
+    position: absolute;
+    right: -56px;
+  }
+  .blackHeading {
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .textwrap {
+    right: 2%;
+  }
+  .yellowbimgae {
+    left: -24%;
+  }
+  .blackPara {
+    margin-bottom: 2.3rem;
+  }
+  .box {
+    width: 100%;
+    padding: 28px;
+  }
+  .fourbox {
+    grid-gap: 13px 74px;
+    right: 50px;
+  }
+  .wrapperContent {
+    height: 914px;
+    margin-bottom: 2.9rem;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 500px) {
+  .textwrap {
+    position: relative;
+    width: 100%;
+    float: right;
+    right: 0%;
+    top: 50%;
+  }
+  .wrapperContent {
+    position: relative;
+    height: 1432px;
+  }
+  .wrapperImages {
+    position: absolute;
+    width: 100%;
+    height: 51%;
+  }
+  .fourbox {
+    left: 0px;
+    grid-gap: 14px 14px;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 200px) {
+    .wrapperContent {
+        height: 1248px;
+      }
+  .yellowbimgae {
+    position: absolute;
+    left: -248px;
+    top: 3.9rem;
+    scale: 0.5;
+  }
+  .textwrap{
+    width: 96%;
+    position: absolute;
+    right: 0;
+    float: none;
+    margin-top: 138%;
+  }
+  .wrapperImages {
+    position: relative;
+    width: 100%;
+    height: 51%;
+  }
+ .girlImages{
+  scale: 0.5;
+  position: absolute;
+  left: -180px;
+ }
+ .blackHeading {
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+    font-size: 40px;
+    line-height: 38px;
+  }
+  .fourbox{
+    grid-gap: 14px 14px;
+    left:0;
+  }
+  .box{
+    width: 70%;
+    padding: 10px;
+  }
+}

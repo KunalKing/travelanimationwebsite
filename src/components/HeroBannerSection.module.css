@@ -92,4 +92,64 @@ text-align: left;
 .PlanepathaboveTwo{
     transform: rotate(35deg);  
 }
-
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .wrappetext h1{
+        margin-top:2.3rem;
+        margin-bottom:2.3rem;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .paragraphText{
+        margin-top:0px;
+        margin-bottom:2.3rem;
+    }
+    .ImagesAnimation{
+        right:7%;
+    }
+    .wrappetext{
+        min-height: 722px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 500px){
+    .wrappetext{
+        min-height: 1301px;
+    }
+    .wrappetext h1{
+        margin-top:1.3rem;
+        margin-bottom:1.3rem;
+        font-size: 38px;
+        line-height: 45.8px;
+    }
+    .paragraphText{
+        margin-bottom:1.3rem;
+    }
+    .ImagesAnimation{
+        right:22%;
+    }
+ }
+ @media screen and (max-width: 499px){
+    .PathUSA{
+        top:14%;
+        left:-76%;
+        width:300%;
+     }
+     .PathAustrila{
+        top:4%;
+        left:-14%;
+        width:200%;
+     }
+     .wrappetext h1{
+        margin-top:1.3rem;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 36.8px;
+        margin-bottom:1.3rem;
+     }
+     .paragraphText{
+        margin-bottom:1.3rem;
+        width: 245px;
+     }
+     .wrappetext{
+      min-height: 994px;
+    }
+ }

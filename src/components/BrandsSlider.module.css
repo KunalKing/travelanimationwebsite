@@ -1,0 +1,4 @@
+.div-next {
+    transition: opacity .1s ease-in, transform .1s ease-out; 
+	animation: fade_close 3s ease-out;
+}

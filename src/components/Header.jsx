@@ -3,6 +3,7 @@ import logo from '../assets/logo.svg';
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react"
+import HamburgerMenu from './HamburgerMenu';
 
 const Header = () => 
 {
@@ -24,7 +25,7 @@ const Header = () =>
       } else if (screenWidth <= 1150 && screenWidth >= 1063) {
         screenlogops = "160"; // Adjust for smaller screens
       } else if (screenWidth <= 1062 && screenWidth >= 1000) {
-        screenlogops = "155"; // Adjust for smaller screens
+        screenlogops = "116"; // Adjust for smaller screens
       }
   
    
@@ -79,6 +80,7 @@ const Header = () =>
             <button type='button'onMouseEnter={(event) => handleMouseEnter('SignUp', event)}  onMouseLeave={handleMouseLeave_loginsignup}  className={`animatedNavLinks pstyle_right ${headerstyle.signup}`}>SIGN UP</button>
           </div>
         </div>
+        <HamburgerMenu />
       </div>
     );
   }

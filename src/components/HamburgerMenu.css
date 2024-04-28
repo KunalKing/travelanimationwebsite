@@ -1,0 +1,80 @@
+.hamburger-menu {
+    position: relative;
+  }
+.close-btn{
+  position: absolute;
+  right: 4%;
+  height: 5%;
+  width: 5%;
+  text-align: center;
+  border: none;
+  background: none;
+}
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right:2%;
+  }
+  
+ .hamburger-icon .line{
+    width: 100%;
+    height: 3px;
+   background-color: red;
+  }
+  
+  .menu {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid red;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 5;
+    height: 100vh;
+    top: 0%;
+    right: 0%;
+    position: fixed;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+    cursor: pointer;
+    padding:10px 0px;
+  }
+  
+  .menu li:hover {
+    background: red;
+    border: 1px solid white;
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .hamburger-menu{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 999px){
+    .hamburger-menu{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 499px){
+  .menu{
+    background: black;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    border:none;
+    }
+  }

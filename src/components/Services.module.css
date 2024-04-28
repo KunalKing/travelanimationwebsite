@@ -1,0 +1,112 @@
+.Wrappertext{
+    width:45%;
+}
+.Wrappertext p{
+font-family: Nunito Sans;
+font-size: 23px;
+font-weight: 700;
+line-height: 27.6px;
+letter-spacing: 0.2em;
+text-align: left;
+color: #F85E9F;
+}
+.Wrappertext h2{
+font-family: Nunito Sans;
+font-size: 44px;
+font-weight: 700;
+line-height: 52.8px;
+text-align: left;
+width:59%;
+}
+.SliderWrapper{
+    width:50%;
+    float:right;
+}
+.imageAlignment{
+    margin:0 auto;
+}
+.Styleproperties{
+    background: #800020;
+    padding: 64px 0px 64px 0px;
+    border-radius: 10%;
+}
+.Styleproperties .BoxHeading{
+font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: center;
+}
+.Styleproperties .BoxPara{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+}
+.Mainbox{
+    display: flex;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .Wrappertext h2{
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+    font-size: 50px;
+    line-height: 60px;
+    }
+    .Styleproperties{
+        min-height: 280px;
+        border-radius: 5%;
+    }
+    .Mainbox{
+        margin-top: 82px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 500px){
+    .Mainbox{
+        display:block;
+        min-height:537px;
+    }
+    .Wrappertext h2{
+        width:100%;
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        font-size: 38px;
+        line-height: 45.8px;
+    }
+    .Wrappertext{
+        width: 100%;
+    }
+    .SliderWrapper{
+        width:100%;
+    }
+    .Styleproperties{
+        padding:13px 0px 26px 0px;
+        min-height:260px;
+    }
+}
+@media screen and (max-width: 499px) and (min-width: 200px){
+    .Mainbox{
+        display:block;
+        min-height:537px;
+    }
+    .Wrappertext{
+        width: 100%;
+    }
+    .Wrappertext h2{
+        width:100%;
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+        font-size: 40px;
+        line-height: 36px;
+    }
+    .SliderWrapper{
+        width:100%;
+    }
+    .Styleproperties{
+        padding:13px 0px 16px 0px;
+        min-height:322px;
+        border-radius: 5%;
+        margin:2% 0%;
+    }
+}

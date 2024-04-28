@@ -58,7 +58,14 @@ const HeroBannerSection = () => {
   };
 
   useGSAP(() => {
-    gsap.to(".openanimationUpwards", { duration: 2, y: -600 });
+    const screenWidth = window.innerWidth;
+    let animateUpwardsValue = "-600px";
+
+    if (screenWidth < 999) {
+     animateUpwardsValue = "-746px";
+    }
+
+    gsap.to(".openanimationUpwards", { duration: 2, y:animateUpwardsValue  });
 
     function test() {
       animateSVG();

@@ -1,0 +1,79 @@
+.footerwrapper{
+display: flex;
+}
+.logoSection{
+    width:45%;
+    display: flex;
+    padding-left:1%;
+}
+.Travlog{
+    margin-left:10px;
+}
+.desc{
+    width:45%;
+}
+.socialmediaIcons{
+    width:44%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 1%;
+}
+.company ul{
+    list-style: none;
+}
+.contact ul{
+    list-style: none;
+}
+.meetUs ul{
+    list-style: none;
+}
+.Sectiontwo{
+    width:82%;
+    display: flex;
+    justify-content: space-around;
+}
+.footerwrapper{
+    width: 100%;
+    display: flex;
+}
+.SectionOne{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .desc{
+        width: 68%;
+    }
+    .socialmediaIcons{
+        width:68%;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 200px) {
+
+    .footerwrapper{
+    display: flex;
+    flex-direction: column;
+    }
+    .SectionOne{
+        width:100%;
+    }
+    .desc{
+        width:100%;
+    }
+    .Sectiontwo h2 {
+        font-size: 18px;
+        text-align: left;
+      }
+      .Sectiontwo{
+        width:100%;
+        display:block;
+      }
+      .Sectiontwo li{
+        text-align: center;
+      }
+      .Sectiontwo li:hover{
+        text-align: center;
+        background-color: red;
+      }
+}
