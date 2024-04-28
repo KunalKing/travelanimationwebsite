@@ -67,7 +67,7 @@
     .CardsAnimation{
         position: absolute;
         margin-top: 120%;
-        left: 0;
+        left: -50px;
     }
     .CardsAnimation img{
       scale:0.5;

@@ -71,6 +71,10 @@ const CardsEarth = () => {
       DynamicCardPositionOne = "40%";
       DynamicCardPositiontwo = "40%";
       DynamicCardPositionthree = "40%";
+    }else if(screenWidth < 500 && screenWidth > 200){
+      DynamicCardPositionOne = "4%";
+      DynamicCardPositiontwo = "4%";
+      DynamicCardPositionthree = "4%";
     }
 
     if (isAnimated) {
@@ -165,15 +169,15 @@ const CardsEarth = () => {
            }
           }
 
-  const [tutorial, setTutorial] = useState('');
+  // const [tutorial, setTutorial] = useState('');
 
-  useEffect(() => {
-    const hasVisitedBefore = localStorage.getItem('hasVisited');
-    if (!hasVisitedBefore) {
-      setTutorial('To view the content, hover your cursor over the cards.');
-      localStorage.setItem('hasVisited', 'true');
-    }
-  }, []);
+  // useEffect(() => {
+  //   const hasVisitedBefore = localStorage.getItem('hasVisited');
+  //   if (!hasVisitedBefore) {
+  //     setTutorial('To view the content, hover your cursor over the cards.');
+  //     localStorage.setItem('hasVisited', 'true');
+  //   }
+  // }, []);
 
   useGSAP(runCardsAnimation);
 
@@ -181,7 +185,7 @@ const CardsEarth = () => {
     <div className={cardsCss.CardsAnimation} ref={elementRef}
     onMouseEnter={handleMouseEnter}
     onMouseLeave={handleMouseLeave}>
-      {tutorial && <p className={`popupmessageanimation ${cardsCss.popupmessage}`}>{tutorial}</p>}
+    {/* <p className={`popupmessageanimation ${cardsCss.popupmessage}`}>To view the content, hover your cursor over the cards.</p> */}
       <img className={`firstpic ${cardsCss.firstCard}`} src={firstCard} alt="FirstCardImage" />
       <img className={`secondpic ${cardsCss.secondCard}`} src={SecondCard} alt="FirstCardImage" />
       <img className={`thirdpic ${cardsCss.thirdCard}`} src={ThirdCard} alt="FirstCardImage" />
